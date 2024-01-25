@@ -1,5 +1,5 @@
 # https://book.st-hakky.com/docs/try-poetry-on-docker/
-FROM python:3.10-bullseye
+FROM python:3
 RUN apt-get update &&\
     apt-get -y install locales &&\
     localedef -f UTF-8 -i ja_JP ja_JP.UTF-8
